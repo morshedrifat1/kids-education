@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Quicksand", serif;
+}
+
+:root{
+    --primary-text-color:#111111;
+    --secondary-text-color:#808080;
+    --stori-hading-color:#000000;
+    --primary-hading-font-size:2.875rem;
+    --text-font-size:1rem;
+
+}
+
+.btn{
+    padding: 10px;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px; 
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+body{
+    background-color: #F7F7F7;
+}
+header,section,footer{
+    max-width: 1440px;
+    padding: 0px 140px;
+    margin: auto;
+
+}
+
+
+
+/* hero section open */
+.header-container{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu ul{
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 30px;
+    cursor: pointer;
+}
+.header-menu ul li:nth-child(1){
+    color: #FEA301;
+}
+
+.header-menu ul li:nth-child(2){
+    color: #01ACFD;
+}
+
+.header-menu ul li:nth-child(3){
+    color: #05D4DF;
+}
+
+.header-menu ul li:nth-child(4){
+    color: #5D58EF;
+}
+
+.header-button .btn{
+    background: #FEA301;
+}
+
+.header-container-mobile{
+    display: none;
+}
+
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.hero-text{
+    max-width: 640px;
+}
+.hero-text h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 70px;
+    color: var(--primary-text-color);
+}
+
+.hero-text h1 span:nth-child(1){
+    color: #FEA301;
+}
+.hero-text h1 span:nth-child(2){
+    color: #01ACFD;
+}
+.hero-text p{
+    font-size: var(--text-font-size);
+    color: var(--primary-text-color);
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.hero-text .btn{
+    margin-top: 24px;
+    background-color: var(--primary-text-color);
+}
+
+.hero-img img{
+    width: 100%;
+}
+/* hero section close */
+
+/* main content section open */
+
+.curriculum{
+    background:url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.curriculum-container{
+    padding: 60px 0px;
+}
+.curriculum-heading{
+    max-width: 500px;
+    margin: auto;
+    text-align:center ;
+}
+
+.curriculum-heading h2{
+    color: var(--stori-hading-color);
+    line-height: 57px;
+    font-size: var(--primary-hading-font-size);
+}
+
+.curriculum-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+    gap: 28px;
+}
+
+.curriculum-item-box{
+    text-align: center;
+    padding: 52px 40px;
+    border-radius: 18.8639px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    align-items: center;
+}
+
+.curriculum-item-box img{
+    width: 136px;
+}
+
+.curriculum-item-box h3{
+    font-weight: 700;
+    font-size: 1.53rem;
+    line-height: 31px;
+    color: #202020;
+}
+
+.curriculum-item-box p{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 28px;
+    color: var(--secondary-text-color);
+}
+
+.curriculum-item-box button{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 28px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+
+.curriculum-item-box:nth-child(1){
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0) 40%), #FFFFFF;
+    border: 0.943193px solid #DEF5FF;
+    box-shadow: inset 0px 0px 28.2958px 0.943193px rgba(0, 0, 0, 0.05);
+}
+
+.curriculum-item-box:nth-child(2){
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0) 40%), #FFFFFF;
+    border: 0.943193px solid #FFF4DC;
+    box-shadow: inset 0px 0px 28.2958px 0.943193px rgba(0, 0, 0, 0.05);
+}
+
+.curriculum-item-box:nth-child(3){
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0) 40%), #FFFFFF;
+    border: 0.943193px solid #F2E8FF;
+    box-shadow: inset 0px 0px 28.2958px 0.943193px rgba(0, 0, 0, 0.05);
+}
+.curriculum-item-box:nth-child(1) button{
+    color: #64C8FF;
+}
+
+.curriculum-item-box:nth-child(2) button{
+    color: #F0AA00;
+}
+
+.curriculum-item-box:nth-child(3) button{
+    color: #8700FF;
+}
+
+.curriculum-arrow{
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    gap: 12px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+/* main content section close */
