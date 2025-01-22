@@ -35,7 +35,18 @@ header,section,footer{
 
 }
 
+/* notice section open */
 
+.notice{
+    background-color: #FEA301;
+}
+
+.notice marquee h3{
+    font-size:20px;
+    font-weight: 500;
+    padding: 3px 0px;
+    color: white;
+}
 
 /* hero section open */
 .header-container{
