@@ -37,7 +37,7 @@ header,section,footer{
 
 /* notice section open */
 
-.notice{
+section.notice{
     background-color: #FEA301;
 }
 
